@@ -50,6 +50,7 @@ The ortho imagery are in format not suitable for deep learning applications. So 
 run the following three scripts:
 
 > python3 convert_orthojp22jpg.py
+
 This converts jp2 images to jpeg images. Then to get geocoordinate bounds of these images run `get_ortho_bounds.py`
 
 > python3 get_ortho_bounds.py
