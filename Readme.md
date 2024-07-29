@@ -36,6 +36,8 @@ This will create another directory named `images`.
 This will give two outputs one is the image data `satellite_centers.pkl` contain center points to be sampled. 
 The second thing it contains is satellite center to ground images mapping `image_data.pkl`. If you can get these two pickle piles you can go to the next step of downloading naip images.
 
+**NOTE: ** If you are not interested in Flickr images and instead want to use some other source for coordinates, create pickle files in format similar to `satellite_centers.pkl` and `image_data.pkl` for your data and continue the process down below.
+
 ## Downloading ortho imagery
 
 ### Get raw ortho imagery
